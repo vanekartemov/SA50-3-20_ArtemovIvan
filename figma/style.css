@@ -1,0 +1,80 @@
+.square {
+	width: 40px;
+	height: 40px;
+	border-radius: 3px;
+}
+
+.gray1 {
+	background: #333333;
+}
+
+.gray2 {
+	background: #4F4F4F;
+}
+
+.gray3 {
+	background: #828282;
+}
+
+.gray4 {
+	background: #BDBDBD;
+}
+
+.gray5 {
+	background: #E0E0E0;
+}
+
+.gray6 {
+	background: #F2F2F2;
+}
+
+.red {
+	background: #EB5757;
+}
+
+.orange {
+	background: #F2994A;
+}
+
+.yellow {
+	background: #F2C94C;
+}
+
+.green1 {
+	background: #219653;
+}
+
+.green2 {
+	background: #27AE60;
+}
+
+.green3 {
+	background: #6FCF97;
+}
+
+.blue1 {
+	background: #2F80ED;
+}
+
+.blue2 {
+	background: #2D9CDB;
+}
+
+.blue3 {
+	background: #56CCF2;
+}
+
+.purple1 {
+	background: #9B51E0;
+}
+
+.purple2 {
+	background: #BB6BD9;
+}
+
+.container {
+	display: flex;
+	justify-content: space-around;
+	width: 340px;
+	margin-bottom: 20px;
+}
