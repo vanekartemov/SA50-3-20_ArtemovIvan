@@ -5,6 +5,20 @@
     box-sizing: border-box;
 }
 
+html {
+    height: 100%;
+    background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%,
+    #262425 100%);
+}
+
+.background {
+    position: absolute;
+    top: 0px;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(image/noise.png);
+}
+
 nav {
     margin-top: 60px;
     width: 100vw;
@@ -50,6 +64,8 @@ nav {
     font-weight: 400;
     font-size: 32px;
     line-height: 110%;
+    color: #F1CDB3;
+    letter-spacing: 0.06em;
 }
 
 .subtitle {
@@ -58,10 +74,22 @@ nav {
     font-weight: 400;
     font-size: 13px;
     line-height: 15px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
 }
 
 .list__item__link {
-    font-weight: bold;
-    font-size: 18px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
     text-decoration: none;
+    color: #CDCDCD;
+    transition: 0.3s;
+}
+
+.list__item__link:hover {
+    color: #FFFFFF;
+    border-bottom: 3px solid #F1CDB3;
 }
