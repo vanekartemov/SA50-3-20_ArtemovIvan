@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%,
+    #262425 100%);
+}
+
+.background {
+    position: absolute;
+    top: 0px;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(image/noise.png);
+}
+
+nav {
+    margin-top: 60px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    width: 600px;
+    height: 60px;
+}
+
+.list {
+    width: 443px;
+    height: 27px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.logo {
+    width: 600px;
+    height: 60px;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+}
+
+.logo__title {
+    display: flex;
+    flex-direction: column;
+    width: 184px;
+    height: 60px;
+    align-items: center;
+}
+
+.title {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 110%;
+    color: #F1CDB3;
+    letter-spacing: 0.06em;
+}
+
+.subtitle {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+.list__item__link {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    text-decoration: none;
+    color: #CDCDCD;
+    transition: 0.3s;
+}
+
+.list__item__link:hover {
+    color: #FFFFFF;
+    border-bottom: 3px solid #F1CDB3;
+}
