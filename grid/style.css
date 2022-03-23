@@ -51,3 +51,13 @@ nav {
     color: black;
     text-decoration: none;
 }
+
+.container {
+    display: grid;
+    width: 1310px;
+    height: 849px;
+    grid-template-columns: 316px 313px 377px 243px;
+    grid-template-rows: 247px 118px 78px 92px 209px;
+    gap: 20px;
+}
+
