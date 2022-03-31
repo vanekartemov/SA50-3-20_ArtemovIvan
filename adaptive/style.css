@@ -5,11 +5,23 @@
     box-sizing: border-box;
 }
 
-nav {
-    width: 99vw;
+.page {
+    width: 100%;
+}
+
+.pc__nav {
+    width: 100%;
     display: flex;
     justify-content: center;
     box-shadow: 0px 4px 4px 0px #00000012;
+}
+
+.mobile__nav {
+    width: 100%;
+    height: 56px;
+    display: none;
+    align-items: center;
+    justify-content: center;
 }
 
 .menu {
@@ -56,9 +68,9 @@ nav {
 .container {
     position: absolute;
     top: 141px;
-    margin: 0 auto;
     left: 0;
     right: 0;
+    margin: 0 auto;
     display: grid;
     width: 1310px;
     height: 849px;
@@ -128,3 +140,74 @@ nav {
     object-fit: cover;
     grid-area: img8;
 }
+
+footer {
+    width: 100%;
+    height: 99px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 760px;
+}
+
+.footer__logos {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    width: 158px;
+}
+
+.footerlogo {
+    width: 33px;
+    height: 33px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    nav {width: 56px;}
+    .mobile__nav {display: flex;}
+    .pc__nav {display: none;}
+    .logo__title {font-size: 35px; line-height: 46px;}
+    .container {
+        top: 64px;
+        width: 385px;
+        height: 763px;
+        grid-template-columns: 186px 186px;
+        grid-template-rows: 111px 214px 61px 214px 111px;
+        gap: 13px;
+        grid-template-areas: "img7 img7"
+                            "img5 img6"
+                            "img5 img6"
+                            "img3 img4"
+                            "img8 img8";
+    }
+    .footer__logos {display: flex;}
+}
+
+.mobile__menu {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.hamburger-button {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 16px;
+    width: 26px;
+    cursor: pointer;
+}
+  
+.hamburger-button-top,
+.hamburger-button-middle,
+.hamburger-button-bottom {
+    height: 3px;
+    width: 26px;
+    background: black;
+    border-radius: 5px;
+    opacity: 50%;
+}
+
