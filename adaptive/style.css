@@ -141,6 +141,28 @@
     grid-area: img8;
 }
 
+footer {
+    width: 100%;
+    height: 99px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 760px;
+}
+
+.footer__logos {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    width: 158px;
+}
+
+.footerlogo {
+    width: 33px;
+    height: 33px;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 768px) {
     nav {width: 56px;}
     .mobile__nav {display: flex;}
@@ -158,9 +180,8 @@
                             "img5 img6"
                             "img3 img4"
                             "img8 img8";
-
-
     }
+    .footer__logos {display: flex;}
 }
 
 .mobile__menu {
@@ -189,3 +210,4 @@
     border-radius: 5px;
     opacity: 50%;
 }
+
