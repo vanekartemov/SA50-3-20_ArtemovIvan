@@ -5,15 +5,19 @@
     box-sizing: border-box;
 }
 
+.page {
+    width: 100%;
+}
+
 .pc__nav {
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     box-shadow: 0px 4px 4px 0px #00000012;
 }
 
 .mobile__nav {
-    width: 100vw;
+    width: 100%;
     height: 56px;
     display: none;
     align-items: center;
@@ -64,9 +68,9 @@
 .container {
     position: absolute;
     top: 141px;
-    margin: 0 auto;
     left: 0;
     right: 0;
+    margin: 0 auto;
     display: grid;
     width: 1310px;
     height: 849px;
@@ -142,6 +146,21 @@
     .mobile__nav {display: flex;}
     .pc__nav {display: none;}
     .logo__title {font-size: 35px; line-height: 46px;}
+    .container {
+        top: 64px;
+        width: 385px;
+        height: 763px;
+        grid-template-columns: 186px 186px;
+        grid-template-rows: 111px 214px 61px 214px 111px;
+        gap: 13px;
+        grid-template-areas: "img7 img7"
+                            "img5 img6"
+                            "img5 img6"
+                            "img3 img4"
+                            "img8 img8";
+
+
+    }
 }
 
 .mobile__menu {
