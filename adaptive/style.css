@@ -177,7 +177,7 @@ footer {
         gap: 13px;
         grid-template-areas: "img7 img7"
                             "img5 img6"
-                            "img5 img6"
+                            "img5 img4"
                             "img3 img4"
                             "img8 img8";
     }
