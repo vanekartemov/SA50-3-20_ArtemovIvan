@@ -1,0 +1,32 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+html {
+    height: 100%;
+    background-color: rgb(212, 212, 162);
+}
+
+.square {
+    position: absolute;
+    height: 75px;
+    width: 75px;
+    background-color: rgb(167, 37, 37);
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.square:hover {
+    cursor: pointer;
+}
+
+.textblock {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    text-align: center;
+}
